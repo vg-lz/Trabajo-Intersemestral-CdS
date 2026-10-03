@@ -1,0 +1,18 @@
+Corrida: 2026-09-28T19:51:07Z
+Target: sistema-ui
+Casos: 21  Pasan: 16  Fallan: 5
+
+2026-09-28T19:54:23Z ERROR PF-LST-03 -[ExplorarFavoritosPerfilUITests test_PF_LST_03_busquedaSinResultadosInformaAlUsuario]
+    [ExplorarFavoritosPerfilUITests.swift:49] XCTAssertTrue failed - No se informa al usuario que la búsqueda no tuvo resultados
+
+2026-09-28T19:54:56Z ERROR PF-LST-04 -[ExplorarFavoritosPerfilUITests test_PF_LST_04_pullToRefreshRecargaLaLista]
+    [ExplorarFavoritosPerfilUITests.swift:66] XCTAssertGreaterThan failed: ("0") is not greater than ("0") - Tras 'pull to refresh' la lista queda vacía (antes: 82 celdas)
+
+2026-09-28T19:55:28Z ERROR PF-LST-05 -[ExplorarFavoritosPerfilUITests test_PF_LST_05_mensajeDeListaVaciaAcordeALaApp]
+    [ExplorarFavoritosPerfilUITests.swift:80] XCTAssertFalse failed - El mensaje de estado vacío menciona 'pokemon': Oops... Sorry, we couldn't find any pokemon.
+
+2026-09-28T19:57:48Z ERROR PF-LOG-04 -[RegistroLoginUITests test_PF_LOG_04_mensajesDeLoginEnEspanol]
+    [RegistroLoginUITests.swift:132] XCTAssertFalse failed - RNF-06: la alerta de error se muestra en inglés ('Invalid credentials')
+
+2026-09-28T19:58:50Z ERROR PF-REG-04 -[RegistroLoginUITests test_PF_REG_04_registroExitosoYLoginConNuevaCuenta]
+    [RegistroLoginUITests.swift:66] XCTAssertTrue failed

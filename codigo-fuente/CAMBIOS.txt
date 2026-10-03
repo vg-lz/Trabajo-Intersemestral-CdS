@@ -1,0 +1,20 @@
+Cambios realizados:
+
+1. BaseUrl.swift: se cambió la URL base de PokeAPI a SWAPI.
+2. Endpoint.swift: se cambió el endpoint para consultar personajes (people).
+3. ListRepository.swift: se ajustó el tipo decodificado para recibir un arreglo directo en lugar de un objeto con results.
+4. FavoritesViewController.swift: se creó la pantalla de favoritos con su tabla y el almacén estático de personajes guardados.
+5. ListViewController.swift: se agregó un botón de estrella en cada celda para marcar o desmarcar favoritos.
+6. Main.storyboard: se vinculó el view controller de la pestaña Favoritos con la clase FavoritesViewController.
+7. ListViewController.swift: se agregó el título "Explorar Personajes" y un buscador para filtrar personajes por nombre.
+8. FavoritesViewController.swift: se cambió el título de la pantalla a "Mis Favoritos".
+9. GetPokemon.swift: se añadieron al modelo los campos de SWAPI (altura, masa, colores, año de nacimiento, género y planeta natal).
+10. CharacterDetailViewController.swift: se creó la pantalla de detalle del personaje con dos secciones (Caracteristicas Fisicas e Información General) y la consulta del planeta natal.
+11. ListViewController.swift: al tocar una celda ahora se navega a la pantalla de detalle del personaje.
+12. FavoritesViewController.swift: al tocar una celda de favoritos también se navega a la pantalla de detalle.
+13. ProfileViewController.swift: se eliminaron los botones de Hello, Play y Stop, se cambió el título a "Mi perfil" y se agregó placeholder a la imagen.
+14. ProfileViewController.swift: se agregaron dos recuadros con los contadores de Likes (favoritos) y Vistos (visitas a personajes).
+15. ProfileViewController.swift: se reemplazó el popup de selección por dos botones fijos de Cámara y Galería.
+16. CharacterDetailViewController.swift: se agregó un contador estático que se incrementa cada vez que se abre la pantalla.
+17. Main.storyboard: se eliminaron del perfil el botón "Add Photo" y la imagen junto con sus conexiones del storyboard.
+18. ProfileViewController.swift: se reorganizó la pantalla con una tarjeta superior (imagen + título + subtítulo), recuadros de stats y dos botones inferiores.

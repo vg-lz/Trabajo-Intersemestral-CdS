@@ -1,0 +1,63 @@
+name: Incidencia
+description: Registra un error encontrado en las pruebas o en la revisión del código. Paso 6 de la metodología.
+title: "Incidencia <N>: <qué pasa>"
+labels: ["incidencia"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Después de crearla, agrega la etiqueta de gravedad (`gravedad 1: crítica` a `gravedad 4: baja`) y llena el campo *Gravedad* en el tablero.
+  - type: dropdown
+    id: gravedad
+    attributes:
+      label: Gravedad
+      options:
+        - "1 - Crítica: impide usar una función principal y no hay otra forma"
+        - "2 - Alta: resultado incorrecto en una función principal o riesgo de seguridad"
+        - "3 - Media: falla una función secundaria o un error no se maneja"
+        - "4 - Baja: detalle de texto, idioma o presentación"
+    validations:
+      required: true
+  - type: input
+    id: detectada
+    attributes:
+      label: Dónde se detectó
+      description: Número de prueba (y su nombre en los logs) o "Revisión del código".
+      placeholder: "Pruebas 20 y 21 (PU-REG-20 y PU-REG-21)"
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para verlo
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: obtenido
+    attributes:
+      label: Resultado obtenido
+    validations:
+      required: true
+  - type: input
+    id: ubicacion
+    attributes:
+      label: Dónde está en el código
+      placeholder: "RegisterViewModel.swift, línea 95"
+  - type: textarea
+    id: correccion
+    attributes:
+      label: Cómo corregirla
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: Archivo de logs, páginas del PDF de evidencias o capturas.
+    validations:
+      required: true

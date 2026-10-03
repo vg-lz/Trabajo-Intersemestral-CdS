@@ -1,0 +1,78 @@
+Extracto de la consola de Xcode (app ejecutada desde Xcode, 28-09-2026)
+Fuente: registros de ejecución de Xcode (DerivedData/HelloWorld/Logs/Launch)
+
+===== Run-HelloWorld-2026.09.28_14-01-42--0600.xcresult
+User User(name: "", password: "", userName: "a", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "a", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "q", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qt", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qte", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qtes", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qtest", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qteste", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qtester", lastName: "", passwordCorrect: "")
+User User(name: "d", password: "", userName: "qtester", lastName: "", passwordCorrect: "")
+User User(name: "di", password: "", userName: "qtester", lastName: "", passwordCorrect: "")
+User User(name: "die", password: "", userName: "qtester", lastName: "", passwordCorrect: "")
+User User(name: "dieg", password: "", userName: "qtester", lastName: "", passwordCorrect: "")
+User User(name: "diego", password: "", userName: "qtester", lastName: "", passwordCorrect: "")
+User User(name: "diego", password: "", userName: "qtester", lastName: "v", passwordCorrect: "")
+User User(name: "diego", password: "", userName: "qtester", lastName: "ve", passwordCorrect: "")
+User User(name: "diego", password: "", userName: "qtester", lastName: "veg", passwordCorrect: "")
+User User(name: "diego", password: "", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "Q", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "Q", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "Qa", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "a", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "a1", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "1", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "12", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "2", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "23", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "3", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "34", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "4", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "45", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "5", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "56", userName: "qtester", lastName: "vega", passwordCorrect: "")
+User User(name: "diego", password: "6", userName: "qtester", lastName: "vega", passwordCorrect: "")
+===== Run-HelloWorld-2026.09.28_14-09-41--0600.xcresult
+User User(name: "", password: "", userName: "q", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qa", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qau", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qaus", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qause", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserq", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqa", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqau", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqaus", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqause", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqause", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqaus", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqau", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserqa", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauserq", lastName: "", passwordCorrect: "")
+User User(name: "", password: "", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Q", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa1", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa12", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa123", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa1234", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa12345", userName: "qauser", lastName: "", passwordCorrect: "")
+User User(name: "", password: "Qa123456", userName: "qauser", lastName: "", passwordCorrect: "")
+-------- REQUEST --------
+METHOD: GET
+URL: https://swapi.info/api/people
+-------- REQUEST --------
+METHOD: GET
+URL: https://swapi.info/api/people
+-------- REQUEST --------
+METHOD: GET
+URL: https://swapi.info/api/people
+-------- REQUEST --------
+METHOD: GET
+URL: https://swapi.info/api/people

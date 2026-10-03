@@ -1,0 +1,11 @@
+id,resultado,detalle,evidencia
+PM-BIO-01,Falla,"El ícono de Face ID no aparece en el login: la imagen del asset no se empaqueta (el build reporta que el archivo de FaceID.imageset no existe) y el área queda cubierta por el botón '¿No tienes cuenta? Regístrate'; al tocarla se abre Registro.",Evidencias_StarWarsExplorer.pdf págs. 23 y 24
+PM-BIO-02,Bloqueada,"No se puede iniciar el flujo de Face ID (incidencia 18) ni registrar un usuario (incidencia 17).",-
+PM-BIO-03,Bloqueada,"Bloqueada por la incidencia 18: no hay forma de invocar Face ID desde la interfaz.",-
+PM-PRF-01,Pasa,"El simulador de iOS 27 incluye cámara virtual: al tocar Cámara se presenta el selector de cámara (tarda 3-4 s). La rama 'sin cámara' no es reproducible en este entorno; se reporta por inspección (incidencia 13).",Evidencias_StarWarsExplorer.pdf pág. 25
+PM-PRF-02,Pasa,"Se eligió una foto de la galería y reemplazó al placeholder del perfil.",Evidencias_StarWarsExplorer.pdf págs. 26 y 27
+PM-REG-01,Falla,"El campo Contraseña pierde caracteres (la consola registra password 'Qa' -> 'a' -> 'a1' -> '1'...); aparece la hoja del sistema '¿Usar contraseña segura?' y al cerrarla el campo queda vacío mientras el ViewModel conserva un valor. REGÍSTRATE nunca se habilita.",Evidencias_StarWarsExplorer.pdf págs. 28 a 31
+PM-SEG-01,Falla,"La consola de Xcode imprime User(... password: ""Qa123456"" ...) en cada tecla del login y del registro.",Evidencias_StarWarsExplorer.pdf pág. 32; logs/manual-consola-extracto.log
+PM-NF-01,Falla,"En una sola sesión, alternando Buscar y Perfil, la consola registra 4 peticiones GET https://swapi.info/api/people.",logs/manual-consola-extracto.log
+PM-NF-02,Pasa,"Con el simulador en apariencia clara, la app se mantiene en modo oscuro en las pantallas revisadas.",Evidencias_StarWarsExplorer.pdf págs. 33 y 34
+PM-NF-03,Bloqueada,"Requiere desconectar la red del equipo. Queda pendiente para la siguiente ejecución.",-

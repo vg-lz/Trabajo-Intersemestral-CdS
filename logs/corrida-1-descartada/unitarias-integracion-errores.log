@@ -1,0 +1,21 @@
+Corrida: 2026-09-28T19:34:50Z
+Target: unitarias-integracion
+Casos: 52  Pasan: 46  Fallan: 6
+
+2026-09-28T19:35:55Z ERROR PU-DET-04 -[CharacterDetailTests test_PU_DET_04_encabezadosConOrtografiaCorrecta]
+    [CharacterDetailTests.swift:62] XCTAssertEqual failed: ("Optional("Caracteristicas Fisicas")") is not equal to ("Optional("Características Físicas")")
+
+2026-09-28T19:36:08Z ERROR PU-DET-05 -[CharacterDetailTests test_PU_DET_05_falloAlCargarPlanetaNoDejaCargandoIndefinido]
+    [CharacterDetailTests.swift:73] XCTAssertNotEqual failed: ("Optional("Cargando...")") is equal to ("Optional("Cargando...")") - Tras el fallo de red, 'Planeta natal' sigue en 'Cargando...' sin mensaje de error
+
+2026-09-28T19:36:08Z ERROR PU-FAV-04 -[FavoritesTests test_PU_FAV_04_personajesSinUrlSonIndependientes]
+    [ModelAndFavoritesTests.swift:95] XCTAssertFalse failed - Marcar A como favorito marca también a B (ambos url=nil)
+
+2026-09-28T19:36:09Z ERROR PU-REG-08 -[RegisterViewModelTests test_PU_REG_08_usuarioConEspacioInicialEsRechazado]
+    [RegisterViewModelTests.swift:71] XCTAssertEqual failed: ("") is not equal to ("No se permiten espacios ni caracteres especiales") - Un usuario con espacio inicial pasa la validación y se guarda con el espacio
+
+2026-09-28T19:36:09Z ERROR PU-REG-20 -[RegisterViewModelTests test_PU_REG_20_usuarioInvalidoNoDebeHabilitarRegistro]
+    [RegisterViewModelTests.swift:145] XCTAssertFalse failed - isValidForm=true aunque el usuario es inválido
+
+2026-09-28T19:36:09Z ERROR PU-REG-21 -[RegisterViewModelTests test_PU_REG_21_contrasenaDebilNoDebeHabilitarRegistro]
+    [RegisterViewModelTests.swift:151] XCTAssertFalse failed - isValidForm=true aunque la contraseña es débil

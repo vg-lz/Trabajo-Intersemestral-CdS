@@ -1,0 +1,60 @@
+name: Caso de prueba
+description: Registra un grupo de pruebas parecidas y su resultado. Pasos 2 y 5 de la metodología.
+title: "Pruebas <del>-<al>: <función> (<tipo>)"
+labels: ["caso de prueba"]
+body:
+  - type: input
+    id: requisito
+    attributes:
+      label: Requisito que revisa
+      placeholder: "RF 2 - Registro"
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de prueba
+      options:
+        - "1 - Unitarias"
+        - "2 - Integración"
+        - "3 - Interfaz automáticas"
+        - "4 - Manuales"
+    validations:
+      required: true
+  - type: dropdown
+    id: tecnicas
+    attributes:
+      label: Técnicas usadas
+      multiple: true
+      options:
+        - "1 - Grupos de datos"
+        - "2 - Valores en el límite"
+        - "3 - Combinaciones"
+        - "4 - Recorridos de usuario"
+        - "5 - Revisión del código por dentro"
+        - "6 - Exploración con objetivo"
+  - type: input
+    id: logs
+    attributes:
+      label: Nombre en los logs
+      placeholder: "PU-REG-01 a 21"
+  - type: textarea
+    id: pruebas
+    attributes:
+      label: Pruebas
+      description: "Resultado: Pasa, Falla - #incidencia o Bloqueada - razón."
+      value: |
+        | N° | Qué se prueba y qué se espera | Resultado |
+        |---|---|---|
+        |  |  |  |
+    validations:
+      required: true
+  - type: textarea
+    id: datos
+    attributes:
+      label: Datos de prueba
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Resultados y evidencia
+      description: Archivo de logs, páginas del PDF de evidencias o capturas.

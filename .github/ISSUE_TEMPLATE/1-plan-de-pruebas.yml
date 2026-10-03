@@ -1,0 +1,69 @@
+name: Plan de pruebas
+description: Inicia el plan de pruebas (o un nuevo ciclo) de un proyecto. Paso 1 de la metodología.
+title: "Plan de pruebas: <proyecto> - ciclo <N>"
+labels: ["plan de pruebas"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sigue `METODOLOGIA.md` (raíz del repositorio). Al crear el Issue, asígnale el milestone del ciclo.
+  - type: input
+    id: proyecto
+    attributes:
+      label: Proyecto
+      description: Nombre de la app o sistema y versión que se prueba.
+      placeholder: "Star Wars Explorer (versión f080ca6)"
+    validations:
+      required: true
+  - type: input
+    id: documento
+    attributes:
+      label: Documento del plan
+      description: Archivo del plan dentro del repo.
+      placeholder: "Plan_de_Pruebas_<Proyecto>.pdf"
+  - type: textarea
+    id: objetivos
+    attributes:
+      label: Objetivos
+      placeholder: "1. Comprobar que las funciones hacen lo que deben..."
+    validations:
+      required: true
+  - type: textarea
+    id: alcance
+    attributes:
+      label: Alcance
+      description: Qué se prueba y qué no (con la razón).
+    validations:
+      required: true
+  - type: textarea
+    id: riesgos
+    attributes:
+      label: Riesgos y qué se hace con cada uno
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Criterios de aceptación
+      description: Ajusta los criterios base de la metodología si hace falta.
+      value: |
+        | N° | Criterio | Mínimo |
+        |---|---|---|
+        | 1 | Incidencias de gravedad 1 o 2 abiertas | 0 |
+        | 2 | Pruebas ejecutadas que pasan | 90 % o más |
+        | 3 | Pruebas de prioridad alta que pasan | 100 % |
+        | 4 | Código cubierto por las pruebas automáticas | 60 % o más |
+        | 5 | Incidencias de gravedad 3 abiertas | 3 o menos |
+    validations:
+      required: true
+  - type: checkboxes
+    id: avance
+    attributes:
+      label: Avance
+      description: Marca cada paso al terminarlo (también se puede marcar después en el Issue).
+      options:
+        - label: "1. Planear: objetivos, alcance, riesgos y criterios"
+        - label: "2. Diseñar las pruebas (Issues de caso de prueba)"
+        - label: "3. Revisar el código"
+        - label: "4. Programar las pruebas automáticas"
+        - label: "5. Ejecutar y guardar resultados y capturas"
+        - label: "6. Registrar las incidencias"
+        - label: "7. Cerrar el ciclo: evaluar criterios y decidir"
